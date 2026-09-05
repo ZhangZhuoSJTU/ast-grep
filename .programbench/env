@@ -1,0 +1,4 @@
+# ast-grep's interactive-editor test launches $EDITOR and blocks; under pytest
+# there is no terminal, so the default editor hangs forever on macOS and wedges
+# the suite. Point editor hooks at a non-interactive no-op.
+export EDITOR=true VISUAL=true

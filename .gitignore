@@ -190,3 +190,12 @@ docs/_build/
 
 # Pyenv
 .python-version
+# ProgramBench course-competition artifacts
+executable
+.programbench/venv/
+.programbench/gitconfig
+.programbench/home/
+.programbench/tests/
+.programbench/run/
+.programbench/shims/
+.programbench/tmux/
