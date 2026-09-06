@@ -1,6 +1,6 @@
 # Course-side exclusions: tests that are environment-sensitive outside the
 # benchmark containers. Format: <branch>/<classname>.<testname>
-#
+
 # All of these fail for the gold binary on macOS due to platform differences,
 # not the implementation:
 #  * errno numbers/text differ (macOS ELOOP=62, ENAMETOOLONG=63 vs Linux 40/36);
